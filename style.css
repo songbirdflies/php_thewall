@@ -1,0 +1,48 @@
+/*CSS reset settings here*/
+*{
+ margin: 0px;
+ padding: 0px;
+}
+
+body{
+	background-image: url('outer-space.jpg');
+}
+
+#container {
+	width: 800px;
+	height: 850px;
+	margin: auto auto;
+	background-color: white;
+	padding-left: 40px;
+}
+
+#wall_container {
+	width: 1100px;
+	margin: auto auto;
+	background-color: white;
+	padding: 20px 40px;
+
+}
+
+input {
+	display: flex;
+}
+
+input#button {
+	margin-top: 10px;
+}
+
+p.error {
+	color: #0099FF;
+	font-weight: bold;
+}
+
+p.success {
+	color: #00CC00;
+	font-weight: bold;
+}
+
+textarea.area {
+	width: 800px;
+	margin: 0 auto;
+}
